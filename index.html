@@ -1,75 +1,47 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rumah Sehat</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
-      background-color: #f8f9fa;
-    }
-    h1 {
-      text-align: center;
-      color: #0c5460;
-    }
-    .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-    }
-    .card {
-      border: 1px solid #ddd;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      width: 250px;
-      text-align: center;
-      background-color: #fff;
-    }
-    .card img {
-      width: 100%;
-      height: auto;
-      border-radius: 10px 10px 0 0;
-    }
-    .card p {
-      padding: 10px;
-      font-weight: bold;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Rumah Sehat</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>Selamat Datang di Rumah Sehat</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="konsultasi.html">Konsultasi</a></li>
+                <li><a href="sukses.html">Sukses</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <h1>Selamat Datang di Rumah Sehat</h1>
+    <section id="perawat">
+        <h2>Perawat Profesional Kami</h2>
+        <div class="galeri-perawat">
+            <img src="perawat1.jpg" alt="Perawat 1">
+            <img src="perawat2.jpg" alt="Perawat 2">
+            <img src="perawat3.jpg" alt="Perawat 3">
+        </div>
+    </section>
 
-  <h2>Tim Perawat Kami</h2>
-  <div class="gallery">
-    <div class="card">
-      <img src="perawat1.jpg" alt="Perawat 1">
-      <p>Perawat 1</p>
-    </div>
-    <div class="card">
-      <img src="perawat2.jpg" alt="Perawat 2">
-      <p>Perawat 2</p>
-    </div>
-    <div class="card">
-      <img src="perawat3.jpg" alt="Perawat 3">
-      <p>Perawat 3</p>
-    </div>
-  </div>
+    <section id="rekomendasi-obat">
+        <h2>Rekomendasi Obat</h2>
+        <div class="obat">
+            <img src="mixagrip.jpg" alt="Mixagrip">
+            <h3>Mixagrip</h3>
+            <p>Obat flu dan demam.</p>
+        </div>
+        <div class="obat">
+            <img src="paramex.jpg" alt="Paramex">
+            <h3>Paramex</h3>
+            <p>Obat sakit kepala dan nyeri ringan.</p>
+        </div>
+    </section>
 
-  <h2>Obat Rekomendasi</h2>
-  <div class="gallery">
-    <div class="card">
-      <img src="mixagrip.jpg" alt="Mixagrip">
-      <p>Mixagrip - Obat Flu & Batuk</p>
-    </div>
-    <div class="card">
-      <img src="paramex.jpg" alt="Paramex">
-      <p>Paramex - Obat Sakit Kepala</p>
-    </div>
-  </div>
-
+    <footer>
+        <p>&copy; 2025 Rumah Sehat</p>
+    </footer>
 </body>
 </html>
