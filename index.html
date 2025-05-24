@@ -1,31 +1,40 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Rumah Sehat</title>
+  <title>Form Konsultasi | Rumah Sehat</title>
   <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <h1>Rumah Sehat</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="konsultasi.html">Konsultasi</a>
-    </nav>
-  </header>
-
-  <main>
-    <section class="hero">
-      <h2>Konsultasi Kesehatan Mudah dan Cepat</h2>
-      <p>Layanan kesehatan online dengan dokter umum, spesialis, dan psikolog.</p>
-      <a href="konsultasi.html" class="btn-konsultasi">Mulai Konsultasi Sekarang</a>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Rumah Sehat</p>
-  </footer>
-</body>
-</html>
+  <style>
+    .form-container {
+      max-width: 600px;
+      margin: 2em auto;
+      background: #fff;
+      padding: 2em;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      color: #000;
+    }
+    .form-container h2 {
+      text-align: center;
+      color: #007B7F;
+    }
+    .form-container form {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+    }
+    .form-container input,
+    .form-container select,
+    .form-container textarea {
+      padding: 0.75em;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1em;
+    }
+    .form-container button {
+      background-color: #007B7F;
+      color: white;
+      border: none;
+      padding: 1em;
+      border-radius: 6px;
