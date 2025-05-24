@@ -38,3 +38,45 @@
       border: none;
       padding: 1em;
       border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .form-container button:hover {
+      background-color: #005F60;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Rumah Sehat</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="tentang.html">Tentang Kami</a>
+      <a href="konsultasi.html">Konsultasi</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="form-container">
+      <h2>Form Konsultasi</h2>
+      <p>Silakan isi formulir untuk memulai konsultasi dengan dokter kami.</p>
+      <form action="mailto:example@rumahsehat.com" method="POST" enctype="text/plain">
+        <input type="text" name="nama" placeholder="Nama Lengkap" required />
+        <input type="email" name="email" placeholder="Email Anda" required />
+        <select name="jenis_konsultasi" required>
+          <option value="">Pilih Jenis Konsultasi</option>
+          <option value="Dokter Umum">Dokter Umum</option>
+          <option value="Dokter Spesialis">Dokter Spesialis</option>
+          <option value="Psikolog">Psikolog</option>
+        </select>
+        <textarea name="pesan" placeholder="Tulis keluhan atau pertanyaan Anda di sini..." required></textarea>
+        <button type="submit">Kirim Konsultasi</button>
+      </form>
+    </section>
+  </main>
+
+  <footer style="text-align:center; padding: 2em; background: #f0f0f0;">
+    <p>&copy; 2025 Rumah Sehat. Semua Hak Dilindungi.</p>
+  </footer>
+</body>
+</html>
