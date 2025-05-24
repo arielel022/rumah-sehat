@@ -5,29 +5,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rumah Sehat</title>
-  <style>
-    body { font-family: Arial, sans-serif; padding: 20px; }
-    .gallery img {
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      transition: transform 0.3s;
-      width: 200px;
-    }
-    .gallery img:hover {
-      transform: scale(1.05);
-    }
-    .gallery { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px; }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Selamat Datang di Rumah Sehat</h1>
-  <section>
-    <h2>Perawat Profesional</h2>
-    <div class="gallery">
-      <img src="assets/images/perawat1.jpeg" alt="Perawat 1">
-      <img src="assets/images/perawat2.jpg" alt="Perawat 2">
-      <img src="assets/images/perawat3.jpg" alt="Perawat 3">
+  <header>
+    <h1>Selamat Datang di Rumah Sehat</h1>
+    <p>Konsultasi Kesehatan Mudah dan Cepat</p>
+  </header>
+
+  <section id="perawat">
+    <h2>Perawat Profesional Kami</h2>
+    <div class="galeri-perawat">
+      <img src="img/perawat1.jpg" alt="Perawat 1">
+      <img src="img/perawat2.jpg" alt="Perawat 2">
+      <img src="img/perawat3.jpg" alt="Perawat 3">
     </div>
   </section>
+
+  <section id="rekomendasi-obat">
+    <h2>Rekomendasi Obat</h2>
+    <div class="obat">
+      <img src="img/mixagrip.jpg" alt="Mixagrip">
+      <h3>Mixagrip</h3>
+      <p>Meredakan gejala flu seperti demam, sakit kepala, dan hidung tersumbat.</p>
+    </div>
+    <div class="obat">
+      <img src="img/paramex.jpg" alt="Paramex">
+      <h3>Paramex</h3>
+      <p>Meringankan sakit kepala dan sakit gigi dengan cepat.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Rumah Sehat</p>
+  </footer>
 </body>
 </html>
