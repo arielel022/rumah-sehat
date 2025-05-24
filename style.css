@@ -1,47 +1,29 @@
 
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #f4f4f4;
+  background-color: #f2f2f2;
   color: #333;
+  padding: 20px;
+  margin: 0;
 }
 header {
-  background: #00b894;
+  background-color: #4CAF50;
+  padding: 10px 20px;
   color: white;
-  padding: 1em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 nav a {
-  margin: 0 1em;
+  margin-right: 15px;
   color: white;
   text-decoration: none;
 }
-.hero {
-  padding: 2em;
-  text-align: center;
-  background: #dff9fb;
-}
-.btn-konsultasi {
-  display: inline-block;
-  margin-top: 1em;
-  padding: 1em 2em;
-  background-color: #00b894;
-  color: white;
-  text-decoration: none;
+main {
+  background-color: white;
+  padding: 20px;
   border-radius: 8px;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-}
-.btn-konsultasi:hover {
-  background-color: #019875;
+  margin-top: 20px;
 }
 footer {
-  background: #00b894;
-  color: white;
   text-align: center;
-  padding: 1em;
-  margin-top: 2em;
+  padding: 10px;
+  margin-top: 20px;
 }

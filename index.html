@@ -1,82 +1,31 @@
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Form Konsultasi | Rumah Sehat</title>
+  <title>Rumah Sehat</title>
   <link rel="stylesheet" href="style.css" />
-  <style>
-    .form-container {
-      max-width: 600px;
-      margin: 2em auto;
-      background: #fff;
-      padding: 2em;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      color: #000;
-    }
-    .form-container h2 {
-      text-align: center;
-      color: #007B7F;
-    }
-    .form-container form {
-      display: flex;
-      flex-direction: column;
-      gap: 1em;
-    }
-    .form-container input,
-    .form-container select,
-    .form-container textarea {
-      padding: 0.75em;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      font-size: 1em;
-    }
-    .form-container button {
-      background-color: #007B7F;
-      color: white;
-      border: none;
-      padding: 1em;
-      border-radius: 6px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-    }
-    .form-container button:hover {
-      background-color: #005F60;
-    }
-  </style>
 </head>
 <body>
   <header>
     <h1>Rumah Sehat</h1>
     <nav>
       <a href="index.html">Home</a>
-      <a href="tentang.html">Tentang Kami</a>
       <a href="konsultasi.html">Konsultasi</a>
     </nav>
   </header>
 
   <main>
-    <section class="form-container">
-      <h2>Form Konsultasi</h2>
-      <p>Silakan isi formulir untuk memulai konsultasi dengan dokter kami.</p>
-      <form action="mailto:example@rumahsehat.com" method="POST" enctype="text/plain">
-        <input type="text" name="nama" placeholder="Nama Lengkap" required />
-        <input type="email" name="email" placeholder="Email Anda" required />
-        <select name="jenis_konsultasi" required>
-          <option value="">Pilih Jenis Konsultasi</option>
-          <option value="Dokter Umum">Dokter Umum</option>
-          <option value="Dokter Spesialis">Dokter Spesialis</option>
-          <option value="Psikolog">Psikolog</option>
-        </select>
-        <textarea name="pesan" placeholder="Tulis keluhan atau pertanyaan Anda di sini..." required></textarea>
-        <button type="submit">Kirim Konsultasi</button>
-      </form>
+    <section class="hero">
+      <h2>Konsultasi Kesehatan Mudah dan Cepat</h2>
+      <p>Layanan kesehatan online dengan dokter umum, spesialis, dan psikolog.</p>
+      <a href="konsultasi.html" class="btn-konsultasi">Mulai Konsultasi Sekarang</a>
     </section>
   </main>
 
-  <footer style="text-align:center; padding: 2em; background: #f0f0f0;">
-    <p>&copy; 2025 Rumah Sehat. Semua Hak Dilindungi.</p>
+  <footer>
+    <p>&copy; 2025 Rumah Sehat</p>
   </footer>
 </body>
 </html>
