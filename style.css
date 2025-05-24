@@ -3,28 +3,43 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #e0f7fa;
+  background: #f4f4f4;
   color: #333;
 }
 header {
-  background: #00796b;
+  background: #00b894;
   color: white;
   padding: 1em;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 nav a {
   margin: 0 1em;
   color: white;
   text-decoration: none;
 }
-.tentang-kami {
+.hero {
   padding: 2em;
   text-align: center;
-  background-color: #f9f9f9;
-  color: #333;
+  background: #dff9fb;
+}
+.btn-konsultasi {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 1em 2em;
+  background-color: #00b894;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.btn-konsultasi:hover {
+  background-color: #019875;
 }
 footer {
-  background: #004d40;
+  background: #00b894;
   color: white;
   text-align: center;
   padding: 1em;
