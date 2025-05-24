@@ -1,25 +1,41 @@
+
 # Rumah Sehat
 
-**Rumah Sehat** adalah aplikasi web untuk layanan konsultasi kesehatan yang dirancang dengan memperhatikan prinsip UI/UX dan dasar desain grafis agar tampilan menarik serta mudah digunakan oleh pengguna.
+Sebuah startup ingin meluncurkan aplikasi web layanan konsultasi kesehatan. Mereka ingin memastikan tampilan web yang menarik sekaligus mudah digunakan.
 
-## 🎯 Tujuan
+## 💡 Prinsip UI/UX dan Desain Grafis
 
-Memberikan pengalaman pengguna yang optimal melalui tampilan antarmuka yang bersih, informatif, dan mudah diakses untuk konsultasi kesehatan online.
+Dalam merancang UI/UX dan desain grafis untuk layanan kesehatan seperti Rumah Sehat, prinsip-prinsip berikut sangat penting:
 
----
+- **Hierarki Visual**: Menyusun elemen dari yang paling penting ke yang kurang penting, misalnya judul besar di atas dan tombol CTA terlihat jelas.
+- **Kontras**: Menggunakan warna kontras untuk membedakan elemen penting seperti tombol dari latar belakang.
+- **Whitespace**: Memberikan ruang antar elemen agar tampilan tidak padat dan mudah dibaca.
 
-## 🧠 Prinsip Desain UI/UX yang Diterapkan
-
-### 1. Hierarki Visual
-Elemen-elemen penting seperti judul halaman, tombol aksi (CTA), dan menu navigasi ditampilkan dengan ukuran dan posisi yang lebih mencolok agar pengguna dapat memproses informasi secara intuitif.
-
-### 2. Kontras
-Penggunaan warna dengan kontras tinggi (misalnya tombol oranye di atas latar putih/abu-abu) memastikan elemen-elemen utama mudah dibaca dan menarik perhatian pengguna.
-
-### 3. Whitespace
-Penerapan ruang kosong antar elemen UI menjaga tampilan tetap rapi dan tidak membingungkan pengguna. Whitespace membantu pengguna fokus pada konten penting.
-
----
+Prinsip-prinsip ini membantu pengguna memahami informasi lebih cepat dan meningkatkan kenyamanan dalam navigasi.
 
 ## 🖼️ Wireframe Kasar Halaman Homepage
 
+```
++------------------------------------------------+
+| Logo Rumah Sehat       | Home | Layanan | Login|
++------------------------------------------------+
+| Hero Image (gambar layanan kesehatan)          |
+| Judul: "Konsultasi Kesehatan Mudah dan Cepat"  |
+| Deskripsi singkat layanan                      |
+| [Tombol: Mulai Konsultasi Sekarang]            |
++------------------------------------------------+
+| Seksi Layanan:                                 |
+| - Dokter Umum                                  |
+| - Dokter Spesialis                             |
+| - Psikolog Online                              |
++------------------------------------------------+
+| Testimoni Pengguna                             |
+| - "Sangat membantu dan cepat." – Anisa         |
+| - "Pelayanan ramah dan profesional." – Budi    |
++------------------------------------------------+
+| Footer:                                        |
+| - Kontak Kami                                  |
+| - Link Sosial Media                            |
+| - © 2025 Rumah Sehat                           |
++------------------------------------------------+
+```
