@@ -2,28 +2,124 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rumah Sehat</title>
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f8fb;
+      color: #333;
+    }
+    header {
+      background: #00a99d;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1em 2em;
+    }
+    nav a {
+      margin-left: 1.5em;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .hero {
+      text-align: center;
+      padding: 3em 2em;
+      background: url('https://source.unsplash.com/1600x600/?doctor,hospital') no-repeat center center/cover;
+      color: white;
+    }
+    .hero h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.5em;
+    }
+    .hero p {
+      font-size: 1.2em;
+      margin-bottom: 1.5em;
+    }
+    .hero button {
+      padding: 1em 2em;
+      background-color: #00a99d;
+      border: none;
+      font-size: 1em;
+      color: white;
+      cursor: pointer;
+      border-radius: 6px;
+    }
+    section {
+      padding: 2em;
+      max-width: 900px;
+      margin: auto;
+    }
+    .layanan ul {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+      padding: 0;
+      list-style: none;
+    }
+    .layanan li {
+      background: white;
+      padding: 1em;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .testimoni blockquote {
+      background: #fff;
+      padding: 1em;
+      border-left: 5px solid #00a99d;
+      margin-bottom: 1em;
+      border-radius: 4px;
+    }
+    footer {
+      background: #00a99d;
+      color: white;
+      text-align: center;
+      padding: 1.5em;
+      margin-top: 3em;
+    }
+  </style>
 </head>
 <body>
+
   <header>
     <h1>Rumah Sehat</h1>
     <nav>
-      <a href="index.html">Beranda</a>
-      <a href="tentang.html">Tentang Kami</a>
+      <a href="#">Home</a>
+      <a href="#">Layanan</a>
+      <a href="#">Login</a>
     </nav>
   </header>
 
-  <main>
-    <section>
-      <h2>Selamat Datang di Rumah Sehat</h2>
-      <p>Kami menyediakan layanan kesehatan terbaik untuk Anda dan keluarga.</p>
-    </section>
-  </main>
+  <section class="hero">
+    <h1>Konsultasi Kesehatan Mudah dan Cepat</h1>
+    <p>Dapatkan layanan konsultasi medis profesional kapan saja, di mana saja.</p>
+    <button>Mulai Konsultasi Sekarang</button>
+  </section>
+
+  <section class="layanan">
+    <h2>Layanan Kami</h2>
+    <ul>
+      <li>🩺 Dokter Umum</li>
+      <li>🧬 Dokter Spesialis</li>
+      <li>🧠 Psikolog Online</li>
+    </ul>
+  </section>
+
+  <section class="testimoni">
+    <h2>Testimoni Pengguna</h2>
+    <blockquote>"Sangat membantu dan cepat." – Anisa</blockquote>
+    <blockquote>"Pelayanan ramah dan profesional." – Budi</blockquote>
+  </section>
 
   <footer>
-    <p>&copy; 2025 Rumah Sehat. Semua Hak Dilindungi.</p>
+    <p>Kontak Kami | Link Sosial Media</p>
+    <p>© 2025 Rumah Sehat</p>
   </footer>
+
 </body>
 </html>
