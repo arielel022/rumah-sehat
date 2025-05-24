@@ -4,28 +4,96 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Rumah Sehat</title>
+  <title>Rumah Sehat | Konsultasi Kesehatan Online</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1>Rumah Sehat</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="konsultasi.html">Konsultasi</a>
-    </nav>
+    <div class="container">
+      <h1 class="logo">Rumah Sehat</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="#layanan">Layanan</a>
+        <a href="konsultasi.html">Konsultasi</a>
+        <a href="#">Login</a>
+      </nav>
+    </div>
   </header>
 
   <main>
     <section class="hero">
-      <h2>Konsultasi Kesehatan Mudah dan Cepat</h2>
-      <p>Layanan kesehatan online dengan dokter umum, spesialis, dan psikolog.</p>
-      <a href="konsultasi.html" class="btn-konsultasi">Mulai Konsultasi Sekarang</a>
+      <div class="container">
+        <h2>Konsultasi Kesehatan Mudah dan Cepat</h2>
+        <p>Dapatkan layanan kesehatan profesional dari rumah bersama dokter terpercaya kami.</p>
+        <a href="konsultasi.html" class="btn">Mulai Konsultasi Sekarang</a>
+      </div>
+    </section>
+
+    <section id="layanan" class="layanan">
+      <div class="container">
+        <h3>Layanan Kami</h3>
+        <div class="grid">
+          <div class="card">👨‍⚕️ Dokter Umum</div>
+          <div class="card">🏥 Dokter Spesialis</div>
+          <div class="card">🧠 Psikolog Online</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimoni">
+      <div class="container">
+        <h3>Apa Kata Mereka</h3>
+        <blockquote>"Sangat membantu dan cepat." – Anisa</blockquote>
+        <blockquote>"Pelayanan ramah dan profesional." – Budi</blockquote>
+      </div>
+    </section>
+
+    <!-- TIM MEDIS -->
+    <section class="tim-medis">
+      <div class="container">
+        <h3>Tim Medis Kami</h3>
+        <div class="grid">
+          <div class="card">
+            <img src="img/perawat1.jpg" alt="Perawat 1" />
+            <p>Perawat Ani</p>
+          </div>
+          <div class="card">
+            <img src="img/perawat2.jpg" alt="Perawat 2" />
+            <p>Perawat Budi</p>
+          </div>
+          <div class="card">
+            <img src="img/perawat3.jpg" alt="Perawat 3" />
+            <p>Perawat Citra</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REKOMENDASI OBAT -->
+    <section class="rekomendasi">
+      <div class="container">
+        <h3>Rekomendasi Obat</h3>
+        <div class="grid">
+          <div class="card">
+            <h4>Jika Pusing</h4>
+            <img src="img/paramex.jpg" alt="Paramex" />
+            <p><strong>Paramex</strong><br/>Atasi pusing & sakit kepala.</p>
+          </div>
+          <div class="card">
+            <h4>Jika Flu</h4>
+            <img src="img/mixagrip.jpg" alt="Mixagrip" />
+            <p><strong>Mixagrip</strong><br/>Redakan flu & hidung tersumbat.</p>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Rumah Sehat</p>
+    <div class="container">
+      <p>Kontak Kami | Sosial Media | © 2025 Rumah Sehat</p>
+    </div>
   </footer>
 </body>
 </html>
